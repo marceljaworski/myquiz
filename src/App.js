@@ -12,16 +12,16 @@ function App() {
   return (
     <div className="App">
 
+      <Header/>
       <BrowserRouter>
         <Routes>
-          <Route />
+          <Route path="/" element={<Start />}/>
         </Routes>
       </BrowserRouter>
 
 
       
       <Fotter/>
-      <Header/>
       <DataJson/>
      <h1>My Quiz</h1>
 
