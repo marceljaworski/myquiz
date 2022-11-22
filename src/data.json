@@ -1,0 +1,124 @@
+{
+    "Fragen": [
+    {
+    "Frage": "Wie lautet der wissenschaftliche Name eines Schmetterlings?",
+    "Antworten": [
+    "Apis",
+    "Coleopteren",
+    "Ameisen",
+    "Rhopalocera"
+    ],
+    "korrekter Index": 3
+    },
+    {
+    "Frage": "Wie heiß ist die Oberfläche der Sonne?",
+    "Antworten": [
+    "1.233 K",
+    "5.778 K",
+    "12.130 K",
+    "101.300K"
+    ],
+    "korrekter Index": 1
+    },
+    {
+    "question": "Wer sind die Schauspieler in The Internship?",
+    "Antworten": [
+    "Ben Stiller, Jonah Hill",
+    "Courteney Cox, Matt LeBlanc",
+    "Kaley Cuoco, Jim Parsons",
+    "Vince Vaughn, Owen Wilson"
+    ],
+    "korrekter Index": 3
+    },
+    {
+    "Frage": "Was ist die Hauptstadt von Spanien?",
+    "Antworten": [
+    "Berlin",
+    "Buenos Aires",
+    "Madrid",
+    "San Juan"
+    ],
+    "richtiger Index": 2
+    },
+    {
+    "question": "Was sind die Schulfarben der University of Texas at Austin?",
+    "Antworten": [
+    "Schwarz Rot",
+    "Blau, Orange",
+    "Weiß, gebranntes Orange",
+    "Weiß, Altgold, Gold"
+    ],
+    "richtiger Index": 2
+    },
+    {
+    "question": "Was sind 70 Grad Fahrenheit in Celsius?",
+    "Antworten": [
+    "18.8889",
+    "20",
+    "21.1111",
+    "158"
+    ],
+    "richtiger Index": 2
+    },
+    {
+    "Frage": "Wann wurde Mahatma Gandhi geboren?",
+    "Antworten": [
+    "2. Oktober 1869",
+    "15. Dezember 1872",
+    "18. Juli 1918",
+    "15. Januar 1929"
+    ],
+    "korrekter Index": 0
+    },
+    {
+    "Frage": "Wie weit ist der Mond von der Erde entfernt?",
+    "Antworten": [
+    "7.918 Meilen (12.742 km)",
+    "86.881 Meilen (139.822 km)",
+    "238.400 Meilen (384.400 km)",
+    "35.980.000 Meilen (57.910.000 km)"
+    ],
+    "richtiger Index": 2
+    },
+    {
+    "question": "Was ist 65 mal 52?",
+    "Antworten": [
+    "117",
+    "3120",
+    "3380",
+    "3520"
+    ],
+    "richtiger Index": 2
+    },
+    {
+    "question": "Wie hoch ist der Mount Everest?",
+    "Antworten": [
+    "6.683 Fuß (2.037 m)",
+    "7.918 Fuß (2.413 m)",
+    "19.341 Fuß (5.895 m)",
+    "29.029 Fuß (8.847 m)"
+    ],
+    "korrekter Index": 3
+    },
+    {
+    "Frage": "Wann sind The Avengers herausgekommen?",
+    "Antworten": [
+    "2. Mai 2008",
+    "4. Mai 2012",
+    "3. Mai 2013",
+    "4. April 2014"
+    ],
+    "korrekter Index": 1
+    },
+    {
+    "question": "Was ist 48.879 hexadezimal?",
+    "Antworten": [
+    "0x18C1",
+    "0xBEEF",
+    "0xDEAD",
+    "0x12D591"
+    ],
+    "korrekter Index": 1
+    }
+    ]
+    }
