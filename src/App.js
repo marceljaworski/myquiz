@@ -12,17 +12,14 @@ function App() {
 
       <Header />
 
-
       <BrowserRouter>
         <Routes>
-          <Route />
+          <Route path="/" element={<Start />}/>
         </Routes>
       </BrowserRouter>
-
-
       
       <Fotter/>
-      <Header/>
+
      <h1>My Quiz</h1>
 
 
