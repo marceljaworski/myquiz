@@ -2,15 +2,15 @@
 
 # Augaben: 
 
-## 1. Boiler Plate erstellen, Navegation, BrowserRouter, pages.
+## 1. x Boiler Plate erstellen, Navegation, BrowserRouter, pages.
 
 ### Views/ pages:
 1. a- Welkome view "Herzliche Wilkome auf unsere Quiz App"
-2. b- Quiz.. viel                           funktionalitet drin... schafe wir das?
+2. b- Quiz.. viel funktionalitet drin... schafe wir das?
 3. c- Info oder kontakt
  ### Components
  questions
- footer
+
  header
 
 
@@ -19,6 +19,7 @@
 ## 3. Funktionalitet von den Quiz... 
 ## 4. Styling UI User Interface Design CSS
 ## 5. Git merge, pull request (Marcel)
+1.arbeit mein branch, 2.pushe, pull request 3.deled branch / merge mybranch main
 
 x machen glechzitig zusammen? eine person tippen und den anderen helfen. 
  jedes eine aufgabe?
