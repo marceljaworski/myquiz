@@ -2,15 +2,16 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Fotter from "./componens/Footer"
-import Header from "./componens/Header"
-import DataJson from "./data.json"
-
 
 import './App.css';
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
+
+      <Header />
+
 
       <BrowserRouter>
         <Routes>
@@ -22,8 +23,8 @@ function App() {
       
       <Fotter/>
       <Header/>
-      <DataJson/>
      <h1>My Quiz</h1>
+
 
     </div>
   );
