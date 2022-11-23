@@ -1,7 +1,7 @@
 {
     "Fragen": [
     {
-    "Frage": "Wie lautet der wissenschaftliche Name eines Schmetterlings?",
+    "Frage 01": "Wie lautet der wissenschaftliche Name eines Schmetterlings?",
     "Antworten": [
     "Apis",
     "Coleopteren",
@@ -11,7 +11,7 @@
     "korrekter Index": 3
     },
     {
-    "Frage": "Wie heiß ist die Oberfläche der Sonne?",
+    "Frage 02": "Wie heiß ist die Oberfläche der Sonne?",
     "Antworten": [
     "1.233 K",
     "5.778 K",
@@ -21,7 +21,7 @@
     "korrekter Index": 1
     },
     {
-    "question": "Wer sind die Schauspieler in The Internship?",
+    "Frage 03": "Wer sind die Schauspieler in The Internship?",
     "Antworten": [
     "Ben Stiller, Jonah Hill",
     "Courteney Cox, Matt LeBlanc",
@@ -31,7 +31,7 @@
     "korrekter Index": 3
     },
     {
-    "Frage": "Was ist die Hauptstadt von Spanien?",
+    "Frage 04": "Was ist die Hauptstadt von Spanien?",
     "Antworten": [
     "Berlin",
     "Buenos Aires",
@@ -41,7 +41,7 @@
     "richtiger Index": 2
     },
     {
-    "question": "Was sind die Schulfarben der University of Texas at Austin?",
+    "Frage 05": "Was sind die Schulfarben der University of Texas at Austin?",
     "Antworten": [
     "Schwarz Rot",
     "Blau, Orange",
@@ -51,7 +51,7 @@
     "richtiger Index": 2
     },
     {
-    "question": "Was sind 70 Grad Fahrenheit in Celsius?",
+    "Frage 06": "Was sind 70 Grad Fahrenheit in Celsius?",
     "Antworten": [
     "18.8889",
     "20",
@@ -61,7 +61,7 @@
     "richtiger Index": 2
     },
     {
-    "Frage": "Wann wurde Mahatma Gandhi geboren?",
+    "Frage 07": "Wann wurde Mahatma Gandhi geboren?",
     "Antworten": [
     "2. Oktober 1869",
     "15. Dezember 1872",
@@ -71,7 +71,7 @@
     "korrekter Index": 0
     },
     {
-    "Frage": "Wie weit ist der Mond von der Erde entfernt?",
+    "Frage 08": "Wie weit ist der Mond von der Erde entfernt?",
     "Antworten": [
     "7.918 Meilen (12.742 km)",
     "86.881 Meilen (139.822 km)",
@@ -81,7 +81,7 @@
     "richtiger Index": 2
     },
     {
-    "question": "Was ist 65 mal 52?",
+    "Frage 09": "Was ist 65 mal 52?",
     "Antworten": [
     "117",
     "3120",
@@ -91,7 +91,7 @@
     "richtiger Index": 2
     },
     {
-    "question": "Wie hoch ist der Mount Everest?",
+    "Frage 10": "Wie hoch ist der Mount Everest?",
     "Antworten": [
     "6.683 Fuß (2.037 m)",
     "7.918 Fuß (2.413 m)",
@@ -101,7 +101,7 @@
     "korrekter Index": 3
     },
     {
-    "Frage": "Wann sind The Avengers herausgekommen?",
+    "Frage 11": "Wann sind The Avengers herausgekommen?",
     "Antworten": [
     "2. Mai 2008",
     "4. Mai 2012",
@@ -111,14 +111,40 @@
     "korrekter Index": 1
     },
     {
-    "question": "Was ist 48.879 hexadezimal?",
+    "Frage 12": "Welche Zimmerpflanze gibt NACHTS Sauerstoff ab?",
     "Antworten": [
-    "0x18C1",
-    "0xBEEF",
-    "0xDEAD",
-    "0x12D591"
+    "Aloe",
+    "Begonie",
+    "Efeu",
+    "Monstera"
     ],
-    "korrekter Index": 1
-    }
+    "korrekter Index": 0
+    },
+    {
+    "Frage 13": "Welche Bäume leben am längsten?",
+    "Antworten": [
+    "Kiefern",
+    "Pappeln",
+    "Sanddorne",
+    "Weiden"
+    ],
+    "korrekter Index": 0
+    },
+    {
+    "Frage 14": "Welche Vögel können weder laufen noch hüpfen?",
+    "Antworten": [
+    "Schwalbe",
+    "Segler",
+    "Specht",
+    "Kolibri"
+    ],
+    "korrekter Index": [0, 1, 3]
+    },
+    {
+    "Frage 15": "Welche Figur passt nicht zu den anderen?",
+    "Antworten": ["1", "2", "3", "4", "5"],
+    "korrekter Index": 0,
+    "img": "https://www.watson.ch/imgdb/55fb/Qx,B,0,133,570,172,237,177,95,71/2154272432661200"
+    }             
     ]
-    }
+}
