@@ -1,6 +1,6 @@
-import React from 'react'
-import Questions from '../components/Questions'
-import Counter from "../components/Counter"
+import React from 'react';
+import Questions from '../components/Questions';
+import Counter from "../components/Counter";
 
 
 function Quiz({name}) {
