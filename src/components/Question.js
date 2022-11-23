@@ -12,7 +12,7 @@ function Question({index, el, setCount, count, setMoney, money}) {
   console.log(index)
   return (
     <div>
-        <button onClick={handleClick} key={index}>{el}</button>
+        <button className='questionButton' onClick={handleClick} key={index}>{el}</button>
     </div>
   )
 }
