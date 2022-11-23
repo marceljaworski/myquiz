@@ -1,26 +1,21 @@
-import React, {useState} from 'react'
-import Data from '../data.json'
-
-
+import {useState} from 'react';
+import Data from '../data.json';
+import Question from '../components/Question';
+const fragen = Data.Fragen;
 
 export default function Questions({name}) {
-  const [fragen] = useState(Data.Fragen)
   const [count, setCount] = useState(0)
   const [ money, setMoney ] = useState(0)
-  const handleClick = (event) => {
-    
-    setCount(count + 1)
-    setMoney(money + 100)
-  }
+  
   return (
     <div>
       <h2>{name} Du hast jetzt {money}$</h2>
-      <h1>{fragen[count].Frage}</h1>
+      <h1>{fragen[0].Frage}</h1>
 
       
-      {fragen[count].Antworten.map((el, index) => {
+      {fragen[0].Antworten.map((el, index) => {
         
-        return <button onClick={handleClick} key={index} value={index}>{el}</button>
+        return <Question el={el} key={index} setCount={setCount} count={count} money={money} setMoney={setMoney} />
       })}
       
     </div>
