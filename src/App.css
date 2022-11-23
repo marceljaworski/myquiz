@@ -5,8 +5,8 @@
 
 .Start {
   color: white;
-  display: flex;
   text-align: center;
+}
  
 .Header {
   color: white;
@@ -14,8 +14,29 @@
   margin: 1rem;
 
 }
-.Link {
+.startLink {
   color: white;
   text-decoration: none;
 
+}
+
+.quizLink {
+  color: white;
+  text-decoration: none;
+}
+
+.inputQuiz {
+  margin-top: 50px;
+}
+
+.input {
+  height: 30px;
+}
+
+.button {
+  height: 36px;
+  width: 60px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: blue;
 }
