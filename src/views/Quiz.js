@@ -1,14 +1,13 @@
 import React from 'react'
 import Questions from '../components/Questions'
-import Conter from "../components/Counter"
+import Counter from "../components/Counter"
 
 
 function Quiz() {
   return (
     <>
-        <div>Quiz</div>
+        <Counter />
         <Questions />
-        <Conter />
     </>
   )
 }
