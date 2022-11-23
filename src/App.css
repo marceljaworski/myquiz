@@ -17,7 +17,13 @@
 .startLink {
   color: white;
   text-decoration: none;
+  background-color: darkolivegreen;
+  padding: 10px;
+  border-radius: 5px;
+}
 
+.startLink:hover {
+  background-color: rgb(144, 160, 117);
 }
 
 .quizLink {
@@ -45,7 +51,7 @@
   width: 60px;
   margin-left: 10px;
   border-radius: 10px;
-  background-color: blue;
+  background-color: chocolate;
 }
 
 .button:hover {
@@ -58,10 +64,30 @@
   margin-left: 10px;
   margin-top: 10px;
   border-radius: 10px;
-  background-color: blue;
+  background-color: chocolate;
   color: white;
 }
 
 .questionButton:hover {
   background-color: rgb(78, 78, 133);
+}
+
+.quizFragen {
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: cadetblue;
+  width: 80%;
+}
+
+.quizUser {
+  background-color: crimson;
+  width: 50%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.frageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
