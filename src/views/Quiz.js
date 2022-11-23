@@ -1,5 +1,6 @@
 import React from 'react'
 import Questions from '../components/Questions'
+import Conter from "../components/Counter"
 
 
 function Quiz() {
@@ -7,6 +8,7 @@ function Quiz() {
     <>
         <div>Quiz</div>
         <Questions />
+        <Conter />
     </>
   )
 }
