@@ -10,6 +10,8 @@ function App() {
   return (
     <div className="App">
 
+      <Header />
+
       <BrowserRouter>
         <Header />
         <Routes>
@@ -17,7 +19,6 @@ function App() {
           <Route path="/quiz" element={<Quiz />}/>
         </Routes>
       </BrowserRouter>    
-
     </div>
   );
 }
