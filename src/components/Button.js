@@ -10,7 +10,7 @@ function Button({index, el, setCount, count, setMoney, money}) {
 
   return (
     <div>
-        <button onClick={handleClick} key={index}>{el}</button>
+        <button className='questionButton' onClick={handleClick} key={index}>{el}</button>
     </div>
   )
 }

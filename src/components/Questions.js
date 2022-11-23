@@ -9,9 +9,14 @@ export default function Questions({name}) {
   
   return (
     <div>
+
       <h2>{name} Du hast jetzt {money}$</h2>
       <h1>{fragen[count].Frage}</h1>
 
+      <div className='frageContainer' >
+        <h2 className='quizUser'>{name} Du hast jetzt {money}$</h2>
+        <h1 className='quizFragen'>{fragen[count].Frage}</h1>
+      </div>
       
       {fragen[count].Antworten.map((el, index) => {
         
