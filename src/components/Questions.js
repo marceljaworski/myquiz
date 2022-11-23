@@ -3,11 +3,10 @@ import Data from '../data.json'
 
 
 
-export default function Questions() {
+export default function Questions({name}) {
   const [fragen] = useState(Data.Fragen)
   const [count, setCount] = useState(0)
-  const [ money, setMoney ] = useState(100)
-  console.log(fragen[count].korrekterIndex)
+  const [ money, setMoney ] = useState(0)
   const handleClick = (event) => {
     
     setCount(count + 1)
@@ -15,7 +14,7 @@ export default function Questions() {
   }
   return (
     <div>
-      <h2>{money}$</h2>
+      <h2>{name} Du hast jetzt {money}$</h2>
       <h1>{fragen[count].Frage}</h1>
 
       
