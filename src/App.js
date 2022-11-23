@@ -18,9 +18,7 @@ function App() {
           <Route path="/" element={<Start />}/>
           <Route path="/quiz" element={<Quiz />}/>
         </Routes>
-      </BrowserRouter>    
-
-     <h1>My Quiz</h1>
+      </BrowserRouter>
 
     </div>
   );

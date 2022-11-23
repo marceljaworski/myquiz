@@ -5,6 +5,10 @@ body {
     sans-serif;
 
     background-color: rgb(68, 65, 65);
-  
+    background-image: url(https://github.com/safak/youtube/blob/react-quiz/src/assets/bg.jpg?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
