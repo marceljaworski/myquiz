@@ -7,8 +7,9 @@ export default function Questions() {
   const [fragen] = useState(Data.Fragen)
   const [count, setCount] = useState(0)
   const [ money, setMoney ] = useState(100)
-  console.log(count)
-  const handleClick = () => {
+  console.log(fragen[count].korrekterIndex)
+  const handleClick = (event) => {
+    
     setCount(count + 1)
     setMoney(money + 100)
   }
@@ -20,7 +21,7 @@ export default function Questions() {
       
       {fragen[count].Antworten.map((el, index) => {
         
-        return <button onClick={handleClick} key={index}>{el}</button>
+        return <button onClick={handleClick} key={index} value={index}>{el}</button>
       })}
       
     </div>
