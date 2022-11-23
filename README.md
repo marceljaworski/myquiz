@@ -1,5 +1,6 @@
 ### Unsere Quiz
 npm install
+npm install react-router-dom
 # Augaben: 
 
 ## 1. x Boiler Plate erstellen, x Navegation (Marcel), x BrowserRouter, pages.
@@ -18,7 +19,7 @@ npm install
 
 ## 2. JSON datei: Data.json inhalt mit Fragen und antworten (Vladislava, Mounssife)
 ## 3. Funktionalitet von den Quiz... 
-## 4. Styling UI User Interface Design CSS
+## 4. Styling UI User Interface Design CSS (Vural)
 ## 5. Git merge, pull request (Marcel) 
 ### Schritte
 1. ich arbeite in mybranch 
