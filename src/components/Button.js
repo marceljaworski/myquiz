@@ -1,15 +1,13 @@
 import React from 'react'
-// import React, {useState} from 'react'
 
+function Button({index, el, setCount, count, setMoney, money}) {
 
-function Question({index, el, setCount, count, setMoney, money}) {
-
-  const handleClick = (event) => {
+  const handleClick = () => {
    
     setCount(count + 1)
     setMoney(money + 100)
   }
-  console.log(index)
+
   return (
     <div>
         <button onClick={handleClick} key={index}>{el}</button>
@@ -17,4 +15,4 @@ function Question({index, el, setCount, count, setMoney, money}) {
   )
 }
 
-export default Question
+export default Button
