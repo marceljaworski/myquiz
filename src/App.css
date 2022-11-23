@@ -3,8 +3,17 @@
   color: white;
 }
 .Start {
+  color: white;
   display: flex;
  
   text-align: center;
  
+}
+
+Link {
+  color: white;
+}
+
+.Header {
+  color: white;
 }
