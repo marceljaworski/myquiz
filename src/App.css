@@ -2,10 +2,13 @@
   text-align: center;
   color: white;
 }
-.Start {
-  display: flex;
- 
-  text-align: center;
+.Header {
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
 
- 
+}
+.Link {
+  color: white;
+  text-decoration: none;
 }
