@@ -11,6 +11,10 @@ function App() {
     <div className="App">
 
       <Header />
+<<<<<<< HEAD
+      <Counter />
+=======
+>>>>>>> 4b82c77993818b92c754030e58f9c48a68cd2423
 
       <BrowserRouter>
         <Header />
