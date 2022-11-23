@@ -1,16 +1,18 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Counter from "./components/Counter"
 
-import Fotter from "./componens/Footer"
 
 import './App.css';
 import Header from "./components/Header";
 
 function App() {
+  
   return (
     <div className="App">
 
       <Header />
+      <Counter setStop={setStop} questionNumber={questionNumber} />
 
       <BrowserRouter>
         <Routes>
@@ -18,7 +20,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       
-      <Fotter/>
+      
 
      <h1>My Quiz</h1>
 
