@@ -8,7 +8,7 @@ export default function Start() {
   }
   return (
     <div className='Start'>
-        
+        <h1>Wer will eine Million Dollar</h1>
         <input type= "text" placeholder= "schreib dein Name"></input>
         <button onClick={handleClick}><Link to="/quiz">Quiz</Link></button>
     </div>
