@@ -1,6 +1,5 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Counter from "./components/Counter"
 import Start from './views/Start'
 import Quiz from './views/Quiz'
 import './App.css';
@@ -11,10 +10,6 @@ function App() {
   return (
     <div className="App">
 
-
-      <Header />
-      
-
       <BrowserRouter>
         <Header />
         <Routes>
@@ -22,8 +17,6 @@ function App() {
           <Route path="/quiz" element={<Quiz />}/>
         </Routes>
       </BrowserRouter>    
-
-     <h1>My Quiz</h1>
 
     </div>
   );
