@@ -13,7 +13,7 @@ function App() {
 
 
       <Header />
-      
+      <Counter setStop={setStop} questionNumber={questionNumber} />
 
       <BrowserRouter>
         <Header />
