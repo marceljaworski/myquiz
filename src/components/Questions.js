@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import Data from '../data.json';
 import Button from './Button';
+
 const fragen = Data.Fragen;
 
 export default function Questions({name}) {
@@ -16,6 +17,7 @@ export default function Questions({name}) {
  
   return (
     <div>
+    
 
       <div className='frageContainer' >
         <h2 className='quizUser'>{name} Du hast jetzt {money}$</h2>

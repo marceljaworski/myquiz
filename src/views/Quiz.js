@@ -1,12 +1,15 @@
 import React from 'react';
 import Questions from '../components/Questions';
-import Counter from "../components/Counter";
+import Counter from '../components/Counter'
+
 
 
 function Quiz({name}) {
   return (
     <>
-        <Counter />
+        <div className='counterContainer'>
+            <Counter />
+        </div>
         <Questions name={name}/>
     </>
   )
