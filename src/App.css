@@ -92,3 +92,15 @@
   flex-direction: column;
   align-items: center;
 }
+
+.counterContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.counterContainerItem {
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+}
