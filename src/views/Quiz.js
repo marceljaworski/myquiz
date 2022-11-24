@@ -8,7 +8,9 @@ function Quiz({name}) {
   return (
     <>
         <div className='counterContainer'>
-            <Counter />
+            <div className='counterContainerItem'>
+              <Counter />
+            </div>
         </div>
         <Questions name={name}/>
     </>
