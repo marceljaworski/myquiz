@@ -4,8 +4,9 @@ import Button from "./Button";
 
 const fragen = Data.Fragen;
 
+
 export default function Questions({ name, setQuestionNumber, setTimer}) {
-  console.log("ghgi");
+
     const [count, setCount] = useState(0);
     const [money, setMoney] = useState(0);
     const antwort = (el) => {
@@ -14,7 +15,7 @@ export default function Questions({ name, setQuestionNumber, setTimer}) {
             setMoney(money + 100);
             setQuestionNumber(count + 1);
             setTimer(30)
-        }
+        }else alert(`Falsche Antwort! du hast nun $`)
     };
 
     return (
