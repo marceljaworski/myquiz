@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
+
 import Start from './views/Start'
 import Quiz from './views/Quiz'
 import Info from './views/Info'
@@ -13,7 +14,9 @@ function App() {
   
   return (
     <div className="App">
+
     
+
       <BrowserRouter>
         <Header />
         <Routes>
