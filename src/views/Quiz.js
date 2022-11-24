@@ -3,11 +3,11 @@ import Questions from '../components/Questions'
 import Counter from "../components/Counter"
 
 
-function Quiz() {
+function Quiz({name}) {
   return (
     <>
         <Counter />
-        <Questions />
+        <Questions name={name}/>
     </>
   )
 }
