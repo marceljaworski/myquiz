@@ -6,7 +6,14 @@ const fragen = Data.Fragen;
 export default function Questions({name}) {
   const [count, setCount] = useState(0)
   const [ money, setMoney ] = useState(0)
-  
+  const antwort = (el) => {
+    if (fragen[count].Antworten.indexOf(el) == fragen[count].korrekterIndex){
+      setCount(count + 1)
+      setMoney(money + 100)
+    }
+
+  }
+ 
   return (
     <div>
 
@@ -17,7 +24,7 @@ export default function Questions({name}) {
       
       {fragen[count].Antworten.map((el, index) => {
         
-        return <Button el={el} key={index} setCount={setCount} count={count} money={money} setMoney={setMoney} />
+        return <Button el={el} key={index} antwort={antwort} />
       })}
       
     </div>
