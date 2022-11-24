@@ -2,7 +2,7 @@ import React from 'react'
 
 function Info() {
   return (
-    <div clasName="Info">Info</div>
+    <div className="Info">Info</div>
   )
 }
 

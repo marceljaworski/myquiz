@@ -1,14 +1,15 @@
-import { React } from "react";
+import { useContext } from "react";
 import Questions from "../components/Questions";
-import Counter from "../components/Counter";
+import { QuizContext } from "../context/Context";
 
 function Quiz() {
+    const { timer } = useContext(QuizContext);
     
     return (
 
         <>
             <div className="counterContainer">
-                <Counter />
+                <>{timer}</>
             </div>
             <Questions />
         </>
