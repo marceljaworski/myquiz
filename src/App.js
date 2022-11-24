@@ -4,8 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 
-
-
 import Start from './views/Start'
 import Quiz from './views/Quiz'
 import './App.css';
@@ -17,9 +15,9 @@ function App() {
     <div className="App">
 
 
-      
-     
 
+
+     
       <BrowserRouter>
         <Header />
         <Routes>
