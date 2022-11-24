@@ -1,9 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import {useState} from "react";
+import {useState, useContext} from "react";
+import { QuizContext } from '../context/Context';
 
-export default function Start({setName}) {
-  
+export default function Start() {
+  const { setName } = useContext(QuizContext);
   const [newName, setNewName] = useState("");
 
   const handleInput = event => {
@@ -11,7 +12,6 @@ export default function Start({setName}) {
     // console.log('value is:', event.target.value);
   };
 
-  
   const handleClick = () => {
     setName(newName)
     
