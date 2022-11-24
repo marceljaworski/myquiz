@@ -2,11 +2,8 @@ import {useContext} from 'react';
 import { QuizContext } from '../context/Context';
 import Button from './Button';
 
-
-
 export default function Questions() {
   const { name, fragen, count, money } = useContext(QuizContext)
-
  
   return (
     <div>
@@ -23,4 +20,5 @@ export default function Questions() {
       
     </div>
   )
+
 }

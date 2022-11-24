@@ -13,6 +13,7 @@ function Quiz() {
             <Questions />
         </>
     )
+
 }
 
 export default Quiz;
