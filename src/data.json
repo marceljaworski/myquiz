@@ -131,20 +131,24 @@
     "korrekterIndex": 0
     },
     {
-    "Frage": "Welche Vögel können weder laufen noch hüpfen?",
+    "Frage": "Wer ist der Autor der Fantasy-Romanreihe Harry Potter?",
     "Antworten": [
-    "Schwalbe",
-    "Segler",
-    "Specht",
-    "Kolibri"
+    "J. R. R. Tolkien (John Ronald Reuel Tolkien)",
+    "Frank Herbert",
+    "George R. R. Martin (George Raymond Richard Martin)",
+    "J. K. Rowling (Joanne Kathleen Rowling)"
     ],
-    "korrekterIndex": [0, 1, 3]
+    "korrekterIndex": 3
     },
     {
-    "Frage": "Welche Figur passt nicht zu den anderen?",
-    "Antworten": ["1", "2", "3", "4", "5"],
-    "korrekterIndex": 0,
-    "img": "https://www.watson.ch/imgdb/55fb/Qx,B,0,133,570,172,237,177,95,71/2154272432661200"
+    "Frage": "Welcher ist der höchste Berg Afrikas?",
+    "Antworten": [
+        "Kilimanjaro", 
+        "Kenya", 
+        "Karisimbi", 
+        "Mawenzi"
+    ],
+    "korrekterIndex": 0
     }             
     ]
 }
