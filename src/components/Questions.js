@@ -21,7 +21,7 @@ export default function Questions({name, setQuestionNumber}) {
     
 
       <div className='frageContainer' >
-        <h2 className='quizUser'>{name} Du hast jetzt {money}$</h2>
+        <h2 className='quizUser'>{name ? `${name}, Du hast jetzt ${money}$` : `Du hast jetzt ${money}$`}</h2>
         <h1 className='quizFragen'>{fragen[count].Frage}</h1>
       </div>
       
