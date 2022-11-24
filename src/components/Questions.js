@@ -1,14 +1,24 @@
 import {useState} from 'react';
 import Data from '../data.json';
 import Button from './Button';
+
 const fragen = Data.Fragen;
 
-export default function Questions({name}) {
+export default function Questions({name, setQuestionNumber}) {
   const [count, setCount] = useState(0)
   const [ money, setMoney ] = useState(0)
-  
+  const antwort = (el) => {
+    if (fragen[count].Antworten.indexOf(el) == fragen[count].korrekterIndex){
+      setCount(count + 1)
+      setMoney(money + 100)
+      setQuestionNumber(count + 1)
+    }
+
+  }
+ 
   return (
     <div>
+    
 
       <div className='frageContainer' >
         <h2 className='quizUser'>{name} Du hast jetzt {money}$</h2>
@@ -17,7 +27,7 @@ export default function Questions({name}) {
       
       {fragen[count].Antworten.map((el, index) => {
         
-        return <Button el={el} key={index} setCount={setCount} count={count} money={money} setMoney={setMoney} />
+        return <Button el={el} key={index} antwort={antwort}  />
       })}
       
     </div>

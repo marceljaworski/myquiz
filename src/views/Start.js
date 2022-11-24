@@ -1,14 +1,14 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import {useState} from "react"
+import React from 'react';
+import {Link} from 'react-router-dom';
+import {useState} from "react";
 
-export default function Start({setName, name}) {
+export default function Start({setName}) {
   
   const [newName, setNewName] = useState("");
 
   const handleInput = event => {
     setNewName(event.target.value);
-    console.log('value is:', event.target.value);
+    // console.log('value is:', event.target.value);
   };
 
   
