@@ -4,18 +4,18 @@ import Button from './Button';
 
 const fragen = Data.Fragen;
 
-export default function Questions({name, setQuestionNumber}) {
+export default function Questions({ name }) {
   const [count, setCount] = useState(0)
   const [ money, setMoney ] = useState(0)
   const antwort = (el) => {
     if (fragen[count].Antworten.indexOf(el) === fragen[count].korrekterIndex){
       setCount(count + 1)
       setMoney(money + 100)
-      setQuestionNumber(count + 1)
+      // setQuestionNumber(count + 1)
 
     }else alert(`Falsche Antwort! du hast nun $`)
       
-    }
+    
 
   }
  
