@@ -1,16 +1,12 @@
 import React from 'react'
 
-function Button({index, el, setCount, count, setMoney, money}) {
-
+function Button({ el, antwort }) {
   const handleClick = () => {
-   
-    setCount(count + 1)
-    setMoney(money + 100)
+    antwort(el)
   }
-
   return (
     <div>
-        <button className='questionButton' onClick={handleClick} key={index}>{el}</button>
+        <button className='questionButton' onClick={handleClick} >{el}</button>
     </div>
   )
 }
