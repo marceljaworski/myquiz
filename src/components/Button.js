@@ -6,6 +6,7 @@ function Button({index, el, setCount, count, setMoney, money}) {
    
     setCount(count + 1)
     setMoney(money + 100)
+    setQuestionNumber(count + 1)
   }
 
   return (

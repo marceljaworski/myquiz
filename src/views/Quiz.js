@@ -10,7 +10,7 @@ function Quiz({name}) {
   return (
     <>
         <Counter questionNumber={questionNumber} />
-        <Questions name={name}/>
+        <Questions name={name} setQuestionNumber={setQuestionNumber}/>
     </>
   )
 }
