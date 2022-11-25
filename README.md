@@ -61,3 +61,4 @@ Agile Organisation/Crossfunktionale Team: Selbstorganisiert Team mit rollen gebu
 
 
 
+
