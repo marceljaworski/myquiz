@@ -11,7 +11,7 @@ function Quiz() {
 
         <>
             {timer < 0 && <Gameover />}
-            {timer > 0 && <div className="counterContainer">
+            {timer > 0 && <div className="counterContainerItem">
                 <>{timer}</>
             </div>}
             {timer > 0 && <Questions />}
