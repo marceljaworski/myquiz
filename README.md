@@ -1,6 +1,9 @@
 ### Unsere Quiz
-npm install
-npm install react-router-dom
+`npm install`
+`npm install react-router-dom`
+`npm run`
+
+
 # Augaben: 
 
 ## 1. Boiler Plate erstellen, Navegation , BrowserRouter, Views, Components.
@@ -25,11 +28,6 @@ npm install react-router-dom
 ## 3. Quiz-Funktion (Marcel) 
 ## 4. Styling UI User Interface Design CSS (Vural)
 ## 5. Git merge, pull request (Marcel) 
-### Schritte 
-1. ich code in mybranch 
-2. commit, push, pull request 
-3. git checkout main, neuen Zustand zu bringen, git pull 
-4. git checkout mybranch, git merge main
 
 ## 6. Bild frage wechseln
 
@@ -40,6 +38,13 @@ Eine person type und den anderen helfen. Die Aufgabe type teilen uns.
 Wir delegieren aufgaben und arbeiten eigenverantwortlich.
 
 Tagliche meeting am amfang der Tag
+
+**Note: Git Workflow** important!
+1. `git checkout -b mybranch` neue branch erstellen
+2. `git add . && git commit -m "message"`, `git push`, pull request 
+3. `git checkout main`, wechseln zu main branch 
+4.  `git pull` neuen Zustand bringen  
+4. `git checkout mybranch`, `git merge main`
 
 
 
