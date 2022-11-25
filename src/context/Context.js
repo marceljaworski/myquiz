@@ -1,4 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react';
+
 import Data from '../data.json';
 
 export const QuizContext = createContext();
@@ -10,21 +11,33 @@ function Context({ children }) {
     const [ money, setMoney ] = useState(0)
     const [timerOn, setTimerOn ] = useState(false)
     const [ timer, setTimer ] = useState(30);
-
+    
+   
     useEffect(() => {
-        if (timer === 0) return alert(`Zeit is vorbei!`) ;  
         const interval = setInterval(() => {
+             
             setTimer((prev) => prev - 1);
+
         }, 1000);
         return () => clearInterval(interval);
-    }, [timerOn]);
-        
+    }, []);
+    
+    if (timer < 0) {
+
+        return alert(`Zeit is vorbei!`) ; 
+    } 
+    if (count > 14) {
+
+        return alert(`Millionärs-Quiz erfolgreich abgeschlossen! Sie haben ${money}$ gewonnen`) ; 
+    } 
+
 
     const antwort = (el) => {
       if (fragen[count].Antworten.indexOf(el) === fragen[count].korrekterIndex){
         setCount(count + 1)
         setTimer(30)
         setMoney(money + 100)
+        
 
       }else alert(`Falsche Antwort! ${name} du hast nun ${money}$ Noch ein versuch?`)
     
