@@ -4,7 +4,7 @@ import {useState, useContext} from "react";
 import { QuizContext } from '../context/Context';
 
 export default function Start() {
-  const { setName } = useContext(QuizContext);
+  const { setName, setTimer } = useContext(QuizContext);
   const [newName, setNewName] = useState("");
 
   const handleInput = event => {
@@ -14,7 +14,7 @@ export default function Start() {
 
   const handleClick = () => {
     setName(newName)
-    
+    setTimer(30)
   }
 
   return (
