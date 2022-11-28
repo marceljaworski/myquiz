@@ -29,7 +29,7 @@
 ## 4. Styling UI User Interface Design CSS (Vural)
 ## 5. Git merge, pull request (Marcel) 
 
-## 6. Bild frage wechseln
+## 6. x Bild frage wechseln
 
 # Strategy
 
@@ -39,7 +39,7 @@ Wir delegieren aufgaben und arbeiten eigenverantwortlich.
 
 Tagliche meeting am amfang der Tag
 
-**Note: Git Workflow** important!
+**Note: Git Workflow**
 1. `git checkout -b mybranch` neue branch erstellen
 2. `git add . && git commit -m "message"`, `git push`, pull request 
 3. `git checkout main`, wechseln zu main branch 

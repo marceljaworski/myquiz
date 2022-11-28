@@ -24,13 +24,6 @@ function Context({ children }) {
         }, 1000);
     }, []);
     
-    
-
-    if (count > 14) {
-
-        return alert(`Millionärs-Quiz erfolgreich abgeschlossen! Sie haben ${money}$ gewonnen`) ; 
-    } 
-
 
     const antwort = (el) => {
     
@@ -39,23 +32,22 @@ function Context({ children }) {
         setTimer(30)
         setMoney(money + 100)
 
-      }else alert(`Falsche Antwort! ${name}, willst du noch eine Chance?`)
+      }else alert(`Falsche Antwort. Willst du es nochmal versuchen?`)
     
     }
    
   return (
     <QuizContext.Provider value={{
-        fragen,
         name,
         setName,
+        fragen,
+        antwort,
         money,
         count,
         setCount,
-        antwort,
         timer,
         setTimer,
-       
-    }}>
+      }}>
         {children}
     </QuizContext.Provider>
    
